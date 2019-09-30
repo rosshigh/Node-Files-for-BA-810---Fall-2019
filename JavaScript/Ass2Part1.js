@@ -1,3 +1,4 @@
+//Adding Comments
 let Student = function(name, grades){
     this.name = name;
     this.grades = grades;
@@ -7,7 +8,7 @@ let Student = function(name, grades){
         this.grades.forEach(item => {
             total += item;
         });
-        return total;
+        return total; 
     }
 
     this.averageGrades = function(){
